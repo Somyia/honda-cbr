@@ -1,0 +1,74 @@
+/* common css */
+:root{
+    --primary-color:#E76F51;
+}
+
+/* header section styles */
+header{
+    background-color: #264653;
+}
+.banner-info{
+    color: #E0E0E0;
+}
+
+.custom-btn{
+    background: var(--primary-color);
+    padding: 10px 45px;
+}
+/* featured bike section css  */
+.featured-bike p, .client-review h1 span, .faq-area h1 span,
+.blog-area h1 span, .newsletter-area h1 span{
+    color: var(--primary-color)
+}
+.grayscale-img{
+    filter: grayscale(100%);
+}
+
+/* happpy clients css */
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.card-text{
+    color: #6C6C6C;
+}
+i.fa-star{
+    color: var(--primary-color);
+}
+.card-footer h5{
+    color: #23A6F0;
+}
+
+/* faqs styles  */
+.accordion-item{
+    border-color: #D5E5FB;
+}
+
+.accordion-button:not(.collapsed){
+    background: none;
+    color: #383838;
+    
+}
+.accordion-button:not(.collapsed)::after {
+    filter: grayscale(1); 
+}
+.accordion-body{
+    color: #7E848C;
+}
+/* blog section styles  */
+.blog-date{
+    background-color: var(--primary-color);
+    color: white; 
+    padding: 10px 14px;
+}
+
+/* newsletter styles  */
+.newsletter-area form.border-color {
+    border: 1px solid var(--primary-color);
+}
+.newsletter-area form.border-color input:focus {
+    outline: none;
+}
+.newsletter-area button{
+    background-color: var(--primary-color);
+}
